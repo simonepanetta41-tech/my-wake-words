@@ -1,5 +1,7 @@
 {
   "type": "micro",
+  "version": 2,
   "wake_word": "hey_grookkkk",
   "model": "hey_grookkkk.tflite"
 }
+
