@@ -2,6 +2,11 @@
   "type": "micro",
   "version": 2,
   "wake_word": "hey_grookkkk",
-  "model": "hey_grookkkk.tflite"
+  "files": [
+    {
+      "path": "hey_grookkkk.tflite"
+    }
+  ]
 }
+
 
