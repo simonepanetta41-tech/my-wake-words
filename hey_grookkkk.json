@@ -1,11 +1,17 @@
 {
   "type": "micro",
+  "wake_word": "Hey Grookkkk",
+  "author": "Simone Panetta",
+  "website": "https://github.com/simonepanetta41-tech",
+  "model": "hey_grookkkk.tflite",
+  "trained_languages": ["it"],
   "version": 2,
-  "model_type": "wake_word",
-  "wake_word": "hey_grookkkk",
-  "files": [
-    {
-      "path": "hey_grookkkk.tflite"
-    }
-  ]
+  "micro": {
+    "probability_cutoff": 0.85,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
+
