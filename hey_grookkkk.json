@@ -1,6 +1,7 @@
 {
   "type": "micro",
   "version": 2,
+  "model_type": "wake_word",
   "wake_word": "hey_grookkkk",
   "files": [
     {
@@ -8,5 +9,3 @@
     }
   ]
 }
-
-
